@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg_1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/subT_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Clinica ideal para você"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_1"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#002196F3"
+        android:shadowColor="#0632BA"
+        android:text="IDEAL CLINICA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="147dp"
+        android:layout_height="57dp"
+        android:shadowColor="#00171717"
+        android:text="Sou paciente"
+        app:backgroundTint="#1B53AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:text="Sou Médico"
+        app:backgroundTint="#1B53AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg_1"
+    tools:context=".Tela3">
+
+    <ImageButton
+        android:id="@+id/btbk"
+        android:layout_width="66dp"
+        android:layout_height="42dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="36dp"
+        android:background="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
+        android:text="Registre - Se"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:text="Entrar"
+        app:backgroundTint="#1B53AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=" Digite seu E-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint=" Digite sua Senha"
+        android:inputType="textPassword"
+        android:textAllCaps="false"
+        android:textColor="#253F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <TextView
+        android:id="@+id/title_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#002196F3"
+        android:shadowColor="#0632BA"
+        android:text="Médico"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/subT_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seus dados para entrar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_3"
+        app:layout_constraintVertical_bias="0.059" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/title_"
+        android:layout_width="389dp"
+        android:layout_height="117dp"
+        android:background="#002196F3"
+        android:shadowColor="#0632BA"
+        android:text="Agende sua consulta aqui:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="212dp"
+        android:layout_height="74dp"
+        android:text="Cancelar Consulta"
+        app:backgroundTint="#1B53AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="212dp"
+        android:layout_height="74dp"
+        android:text="Nova Consulta"
+        app:backgroundTint="#1B53AF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        style="@android:style/Widget.Material.CalendarView"
+        android:layout_width="380dp"
+        android:layout_height="334dp"
+        android:background="#0D2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
